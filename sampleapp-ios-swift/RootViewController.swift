@@ -1,5 +1,7 @@
 
 import UIKit
+import AppCenter
+import AppCenterCrashes
 
 class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
 
@@ -29,6 +31,10 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                            direction: .forward,
                            animated: true,
                            completion: nil)
+        
+        MSAppCenter.start("4946d095-509a-412b-a564-05a25a8f1432", withServices:[
+          MSCrashes.self
+        ])
     }
 
     override func didReceiveMemoryWarning() {
