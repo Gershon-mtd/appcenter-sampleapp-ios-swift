@@ -318,7 +318,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="167" id="Iqh-vW-1Ov"/>
                                         </constraints>
-                                        <string key="text">Visual Studio App Center is mission control for apps. It brings together multiple services, commonly used for mobile developers, into a single, integrated product.</string>
+                                        <string key="text">Visual Studio App Center is mission control for apps. It brings together multiple services, commonly used for mobile developers, into a single, integrated product. Hi Liron!</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
